@@ -2,6 +2,13 @@
 
 *Last updated: 2026-03-19*
 
+Scoring formula:
+`score = Σ(model_weight × quota_multiplier × access_bonus × provider_stack_factor) × benefit_mode_bonus × diversity_bonus × freshness`
+
+- `unlimited = 2.5x`
+- same-provider stack factors: `100% / 70% / 40%`
+- diversity bonus: `+5%` per additional provider
+
 - Total companies tracked: **15**
 - China: **8** | International: **7**
 - Tier distribution: 🏆 S: 1 | 🥇 A: 6 | 🥈 B: 4 | 🥉 C: 4 | 📋 D: 0

@@ -80,6 +80,19 @@ def generate_stats(result: dict) -> str:
     return "\n".join(lines)
 
 
+def generate_formula_summary() -> str:
+    """Generate a short formula summary for the leaderboard page."""
+    lines = [
+        "Scoring formula:",
+        "`score = Σ(model_weight × quota_multiplier × access_bonus × provider_stack_factor) × benefit_mode_bonus × diversity_bonus × freshness`",
+        "",
+        "- `unlimited = 2.5x`",
+        "- same-provider stack factors: `100% / 70% / 40%`",
+        "- diversity bonus: `+5%` per additional provider",
+    ]
+    return "\n".join(lines)
+
+
 def main():
     project_root = Path(__file__).parent.parent
     data_dir = str(project_root / "data")
@@ -95,6 +108,8 @@ def main():
     # Generate markdown
     md_lines = ["# AI Token Benefits Leaderboard\n"]
     md_lines.append(f"*Last updated: {result['generated_at'][:10]}*\n")
+    md_lines.append(generate_formula_summary())
+    md_lines.append("")
     md_lines.append(generate_stats(result))
     md_lines.append("")
 
