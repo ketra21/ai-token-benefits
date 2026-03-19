@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T12:37:21.508100+00:00",
+  "generated_at": "2026-03-19T13:24:54.438856+00:00",
   "total_companies": 15,
   "global_ranking": [
     {
@@ -35,7 +35,7 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Full access to all Claude models internally",
-      "score": 197.98,
+      "score": 125.39,
       "rank": 1,
       "tier": "S",
       "regional_rank": 1
@@ -67,9 +67,9 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Full access to all GPT models",
-      "score": 152.73,
+      "score": 110.3,
       "rank": 2,
-      "tier": "S",
+      "tier": "A",
       "regional_rank": 2
     },
     {
@@ -99,9 +99,9 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Full access to Gemini models",
-      "score": 152.73,
+      "score": 110.3,
       "rank": 3,
-      "tier": "S",
+      "tier": "A",
       "regional_rank": 3
     },
     {
@@ -138,9 +138,9 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "内部 Copilot 平台集成多模型",
-      "score": 126.71,
+      "score": 107.85,
       "rank": 4,
-      "tier": "S",
+      "tier": "A",
       "regional_rank": 1
     },
     {
@@ -171,9 +171,9 @@
       "submitted_at": "2026-03-19",
       "source": "employee_report",
       "notes": "Claude + DeepSeek 均无限制使用",
-      "score": 124.74,
+      "score": 99.23,
       "rank": 5,
-      "tier": "S",
+      "tier": "A",
       "regional_rank": 2
     },
     {
@@ -204,7 +204,7 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "内部全线模型无限使用",
-      "score": 113.13,
+      "score": 82.96,
       "rank": 6,
       "tier": "A",
       "regional_rank": 3
@@ -242,7 +242,7 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Internal Llama + external model access",
-      "score": 92.77,
+      "score": 81.92,
       "rank": 7,
       "tier": "A",
       "regional_rank": 4
@@ -274,10 +274,42 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Engineering team has broad AI tool access",
-      "score": 79.51,
+      "score": 75.89,
       "rank": 8,
       "tier": "B",
       "regional_rank": 5
+    },
+    {
+      "company": "Shopify",
+      "industry": "E-Commerce",
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "CA",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "high",
+          "type": "chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Company-wide AI assistant access",
+      "score": 63.35,
+      "rank": 9,
+      "tier": "B",
+      "regional_rank": 6
     },
     {
       "company": "阿里巴巴",
@@ -307,8 +339,8 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "通义千问内部无限使用",
-      "score": 74.67,
-      "rank": 9,
+      "score": 63.35,
+      "rank": 10,
       "tier": "B",
       "regional_rank": 4
     },
@@ -340,96 +372,10 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Kimi 内部版 + 外部模型补充",
-      "score": 74.67,
-      "rank": 10,
-      "tier": "B",
-      "regional_rank": 5
-    },
-    {
-      "company": "Shopify",
-      "industry": "E-Commerce",
-      "city": "Ottawa",
-      "state": "Ontario",
-      "country": "CA",
-      "size": "10000+",
-      "benefit_mode": "all_employees",
-      "models": [
-        {
-          "provider": "anthropic",
-          "model": "claude-sonnet-4",
-          "quota": "high",
-          "type": "chat"
-        },
-        {
-          "provider": "openai",
-          "model": "gpt-4o",
-          "quota": "high",
-          "type": "chat"
-        }
-      ],
-      "verified": false,
-      "submitted_by": "anonymous",
-      "submitted_at": "2026-03-01",
-      "source": "employee_report",
-      "notes": "Company-wide AI assistant access",
-      "score": 66.37,
+      "score": 63.35,
       "rank": 11,
       "tier": "B",
-      "regional_rank": 6
-    },
-    {
-      "company": "百度",
-      "company_en": "Baidu",
-      "industry": "互联网/AI",
-      "city": "北京",
-      "province": "北京",
-      "country": "CN",
-      "size": "10000+",
-      "benefit_mode": "all_employees",
-      "models": [
-        {
-          "provider": "baidu",
-          "model": "ernie-4.0",
-          "quota": "unlimited",
-          "type": "api+chat"
-        }
-      ],
-      "verified": false,
-      "submitted_by": "anonymous",
-      "submitted_at": "2026-03-01",
-      "source": "employee_report",
-      "notes": "文心一言内部版本",
-      "score": 45.25,
-      "rank": 12,
-      "tier": "C",
-      "regional_rank": 6
-    },
-    {
-      "company": "智谱AI",
-      "company_en": "Zhipu AI",
-      "industry": "AI",
-      "city": "北京",
-      "province": "北京",
-      "country": "CN",
-      "size": "1000-5000",
-      "benefit_mode": "all_employees",
-      "models": [
-        {
-          "provider": "zhipu",
-          "model": "glm-4",
-          "quota": "unlimited",
-          "type": "api+chat"
-        }
-      ],
-      "verified": false,
-      "submitted_by": "anonymous",
-      "submitted_at": "2026-03-01",
-      "source": "employee_report",
-      "notes": "GLM 系列内部无限使用",
-      "score": 45.25,
-      "rank": 13,
-      "tier": "C",
-      "regional_rank": 7
+      "regional_rank": 5
     },
     {
       "company": "Mistral AI",
@@ -457,7 +403,61 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Full Mistral model access + external models",
-      "score": 43.56,
+      "score": 38.61,
+      "rank": 12,
+      "tier": "C",
+      "regional_rank": 7
+    },
+    {
+      "company": "百度",
+      "company_en": "Baidu",
+      "industry": "互联网/AI",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "baidu",
+          "model": "ernie-4.0",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "文心一言内部版本",
+      "score": 37.71,
+      "rank": 13,
+      "tier": "C",
+      "regional_rank": 6
+    },
+    {
+      "company": "智谱AI",
+      "company_en": "Zhipu AI",
+      "industry": "AI",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "1000-5000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "zhipu",
+          "model": "glm-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "GLM 系列内部无限使用",
+      "score": 37.71,
       "rank": 14,
       "tier": "C",
       "regional_rank": 7
@@ -490,7 +490,7 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "",
-      "score": 34.57,
+      "score": 33.0,
       "rank": 15,
       "tier": "C",
       "regional_rank": 8
@@ -531,9 +531,9 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "内部 Copilot 平台集成多模型",
-      "score": 126.71,
+      "score": 107.85,
       "rank": 4,
-      "tier": "S",
+      "tier": "A",
       "regional_rank": 1
     },
     {
@@ -564,9 +564,9 @@
       "submitted_at": "2026-03-19",
       "source": "employee_report",
       "notes": "Claude + DeepSeek 均无限制使用",
-      "score": 124.74,
+      "score": 99.23,
       "rank": 5,
-      "tier": "S",
+      "tier": "A",
       "regional_rank": 2
     },
     {
@@ -597,7 +597,7 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "内部全线模型无限使用",
-      "score": 113.13,
+      "score": 82.96,
       "rank": 6,
       "tier": "A",
       "regional_rank": 3
@@ -630,8 +630,8 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "通义千问内部无限使用",
-      "score": 74.67,
-      "rank": 9,
+      "score": 63.35,
+      "rank": 10,
       "tier": "B",
       "regional_rank": 4
     },
@@ -663,8 +663,8 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Kimi 内部版 + 外部模型补充",
-      "score": 74.67,
-      "rank": 10,
+      "score": 63.35,
+      "rank": 11,
       "tier": "B",
       "regional_rank": 5
     },
@@ -690,8 +690,8 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "文心一言内部版本",
-      "score": 45.25,
-      "rank": 12,
+      "score": 37.71,
+      "rank": 13,
       "tier": "C",
       "regional_rank": 6
     },
@@ -717,8 +717,8 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "GLM 系列内部无限使用",
-      "score": 45.25,
-      "rank": 13,
+      "score": 37.71,
+      "rank": 14,
       "tier": "C",
       "regional_rank": 7
     },
@@ -750,7 +750,7 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "",
-      "score": 34.57,
+      "score": 33.0,
       "rank": 15,
       "tier": "C",
       "regional_rank": 8
@@ -790,7 +790,7 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Full access to all Claude models internally",
-      "score": 197.98,
+      "score": 125.39,
       "rank": 1,
       "tier": "S",
       "regional_rank": 1
@@ -822,9 +822,9 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Full access to all GPT models",
-      "score": 152.73,
+      "score": 110.3,
       "rank": 2,
-      "tier": "S",
+      "tier": "A",
       "regional_rank": 2
     },
     {
@@ -854,9 +854,9 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Full access to Gemini models",
-      "score": 152.73,
+      "score": 110.3,
       "rank": 3,
-      "tier": "S",
+      "tier": "A",
       "regional_rank": 3
     },
     {
@@ -892,7 +892,7 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Internal Llama + external model access",
-      "score": 92.77,
+      "score": 81.92,
       "rank": 7,
       "tier": "A",
       "regional_rank": 4
@@ -924,7 +924,7 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Engineering team has broad AI tool access",
-      "score": 79.51,
+      "score": 75.89,
       "rank": 8,
       "tier": "B",
       "regional_rank": 5
@@ -956,8 +956,8 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Company-wide AI assistant access",
-      "score": 66.37,
-      "rank": 11,
+      "score": 63.35,
+      "rank": 9,
       "tier": "B",
       "regional_rank": 6
     },
@@ -987,8 +987,8 @@
       "submitted_at": "2026-03-01",
       "source": "employee_report",
       "notes": "Full Mistral model access + external models",
-      "score": 43.56,
-      "rank": 14,
+      "score": 38.61,
+      "rank": 12,
       "tier": "C",
       "regional_rank": 7
     }

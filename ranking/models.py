@@ -61,7 +61,7 @@ MODEL_WEIGHTS = {
 
 # Quota multipliers
 QUOTA_MULTIPLIERS = {
-    "unlimited": 3.0,
+    "unlimited": 2.5,
     "very_high": 2.5,    # > 10M tokens/month
     "high": 2.0,         # 1M - 10M tokens/month
     "medium": 1.5,       # 100K - 1M tokens/month
@@ -82,6 +82,14 @@ BENEFIT_MODE_BONUS = {
     "team_budget": 0.8,      # Team budget, needs approval
     "reimbursement": 0.6,    # Self-purchase then reimburse
 }
+
+# Diminishing returns for multiple models from the same provider.
+# The strongest model from a provider gets full credit, then additional
+# models receive partial credit to avoid over-rewarding simple model stacking.
+PROVIDER_STACK_FACTORS = [1.0, 0.7, 0.4]
+
+# Reward multi-provider breadth, but keep it secondary to actual benefit value.
+DIVERSITY_STEP = 0.05
 
 # Provider diversity thresholds
 PROVIDER_NAMES = {

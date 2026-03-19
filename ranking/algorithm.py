@@ -21,7 +21,9 @@ from typing import Any
 from .models import (
     ACCESS_TYPE_BONUS,
     BENEFIT_MODE_BONUS,
+    DIVERSITY_STEP,
     MODEL_WEIGHTS,
+    PROVIDER_STACK_FACTORS,
     QUOTA_MULTIPLIERS,
     get_model_weight,
 )
@@ -32,9 +34,10 @@ def calculate_company_score(company: dict[str, Any]) -> float:
     Calculate the AI Token Benefit Score (ATBS) for a company.
 
     Formula:
-        base_score = Σ (model_weight × quota_multiplier × access_bonus)
+        model_value = model_weight × quota_multiplier × access_bonus × provider_stack_factor
+        base_score = Σ model_value
         benefit_mode_bonus = BENEFIT_MODE_BONUS[benefit_mode]
-        diversity_bonus = 1 + 0.1 × (num_unique_providers - 1)
+        diversity_bonus = 1 + DIVERSITY_STEP × (num_unique_providers - 1)
         freshness = 1 + 0.05 × max(0, 1 - months_since_update / 12)
         final_score = base_score × benefit_mode_bonus × diversity_bonus × freshness
     """
@@ -42,30 +45,36 @@ def calculate_company_score(company: dict[str, Any]) -> float:
     if not models:
         return 0.0
 
-    # Calculate base score from each model
+    # Calculate base score from each model. Additional models from the same
+    # provider get diminishing credit so breadth does not overwhelm quality.
     base_score = 0.0
     providers = set()
+    provider_counts: dict[str, int] = {}
 
-    for model_entry in models:
-        model_id = model_entry.get("model", "")
-        quota = model_entry.get("quota", "low")
-        access_type = model_entry.get("type", "chat")
-        provider = model_entry.get("provider", "unknown")
+    def raw_model_value(model_entry: dict[str, Any]) -> float:
+        weight = get_model_weight(model_entry.get("model", ""))
+        quota_mult = QUOTA_MULTIPLIERS.get(model_entry.get("quota", "low"), 1.0)
+        access_mult = ACCESS_TYPE_BONUS.get(model_entry.get("type", "chat"), 1.0)
+        return weight * quota_mult * access_mult
 
-        weight = get_model_weight(model_id)
-        quota_mult = QUOTA_MULTIPLIERS.get(quota, 1.0)
-        access_mult = ACCESS_TYPE_BONUS.get(access_type, 1.0)
+    for model_entry in sorted(models, key=raw_model_value, reverse=True):
+        provider = model_entry.get("provider", "unknown").lower()
+        stack_index = provider_counts.get(provider, 0)
+        stack_factor = PROVIDER_STACK_FACTORS[
+            min(stack_index, len(PROVIDER_STACK_FACTORS) - 1)
+        ]
 
-        base_score += weight * quota_mult * access_mult
-        providers.add(provider.lower())
+        base_score += raw_model_value(model_entry) * stack_factor
+        providers.add(provider)
+        provider_counts[provider] = stack_index + 1
 
     # Benefit mode bonus
     benefit_mode = company.get("benefit_mode", "tech_only")
     mode_bonus = BENEFIT_MODE_BONUS.get(benefit_mode, 1.0)
 
-    # Provider diversity bonus: +10% for each additional provider
+    # Provider diversity bonus: modest reward for true multi-provider coverage
     num_providers = len(providers)
-    diversity_bonus = 1 + 0.1 * max(0, num_providers - 1)
+    diversity_bonus = 1 + DIVERSITY_STEP * max(0, num_providers - 1)
 
     # Freshness factor based on last update
     freshness = 1.0
