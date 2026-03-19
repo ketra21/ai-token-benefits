@@ -77,23 +77,23 @@
       "benefit_mode": "all_employees",
       "models": [
         {
-          "provider": "tencent",
-          "model": "hunyuan-pro",
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
           "quota": "unlimited",
           "type": "api+chat"
         },
         {
-          "provider": "openai",
-          "model": "gpt-4o",
-          "quota": "medium",
-          "type": "chat"
+          "provider": "deepseek",
+          "model": "deepseek-v3",
+          "quota": "unlimited",
+          "type": "api+chat"
         }
       ],
       "verified": false,
       "submitted_by": "anonymous",
-      "submitted_at": "2026-03-01",
+      "submitted_at": "2026-03-19",
       "source": "employee_report",
-      "notes": "混元大模型内部使用"
+      "notes": "Claude + DeepSeek 均无限制使用"
     },
     {
       "company": "百度",
