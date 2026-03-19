@@ -3,7 +3,7 @@
   "description": "International companies AI token benefits data",
   "companies": [
     {
-      "company": "Anthropic",
+      "company": "Anthropic（test）",
       "industry": "AI",
       "city": "San Francisco",
       "state": "California",
@@ -37,7 +37,7 @@
       "notes": "Full access to all Claude models internally"
     },
     {
-      "company": "OpenAI",
+      "company": "OpenAI（test）",
       "industry": "AI",
       "city": "San Francisco",
       "state": "California",
@@ -65,7 +65,7 @@
       "notes": "Full access to all GPT models"
     },
     {
-      "company": "Google DeepMind",
+      "company": "Google DeepMind（test）",
       "industry": "AI",
       "city": "Mountain View",
       "state": "California",
@@ -93,7 +93,7 @@
       "notes": "Full access to Gemini models"
     },
     {
-      "company": "Meta",
+      "company": "Meta（test）",
       "industry": "Social Media/AI",
       "city": "Menlo Park",
       "state": "California",
@@ -127,7 +127,7 @@
       "notes": "Internal Llama + external model access"
     },
     {
-      "company": "Stripe",
+      "company": "Stripe（test）",
       "industry": "FinTech",
       "city": "San Francisco",
       "state": "California",
@@ -155,7 +155,7 @@
       "notes": "Engineering team has broad AI tool access"
     },
     {
-      "company": "Shopify",
+      "company": "Shopify（test）",
       "industry": "E-Commerce",
       "city": "Ottawa",
       "state": "Ontario",
@@ -183,7 +183,7 @@
       "notes": "Company-wide AI assistant access"
     },
     {
-      "company": "Mistral AI",
+      "company": "Mistral AI（test）",
       "industry": "AI",
       "city": "Paris",
       "country": "FR",

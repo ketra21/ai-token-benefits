@@ -3,8 +3,8 @@
   "description": "中国公司 AI Token 福利数据",
   "companies": [
     {
-      "company": "字节跳动",
-      "company_en": "ByteDance",
+      "company": "字节跳动（test）",
+      "company_en": "ByteDance（test）",
       "industry": "互联网",
       "city": "北京",
       "province": "北京",
@@ -38,8 +38,8 @@
       "notes": "内部 Copilot 平台集成多模型"
     },
     {
-      "company": "阿里巴巴",
-      "company_en": "Alibaba",
+      "company": "阿里巴巴（test）",
+      "company_en": "Alibaba（test）",
       "industry": "互联网/云计算",
       "city": "杭州",
       "province": "浙江",
@@ -96,8 +96,8 @@
       "notes": "Claude + DeepSeek 均无限制使用"
     },
     {
-      "company": "百度",
-      "company_en": "Baidu",
+      "company": "百度（test）",
+      "company_en": "Baidu（test）",
       "industry": "互联网/AI",
       "city": "北京",
       "province": "北京",
@@ -119,8 +119,8 @@
       "notes": "文心一言内部版本"
     },
     {
-      "company": "智谱AI",
-      "company_en": "Zhipu AI",
+      "company": "智谱AI（test）",
+      "company_en": "Zhipu AI（test）",
       "industry": "AI",
       "city": "北京",
       "province": "北京",
@@ -142,8 +142,8 @@
       "notes": "GLM 系列内部无限使用"
     },
     {
-      "company": "月之暗面",
-      "company_en": "Moonshot AI",
+      "company": "月之暗面（test）",
+      "company_en": "Moonshot AI（test）",
       "industry": "AI",
       "city": "北京",
       "province": "北京",
@@ -171,8 +171,8 @@
       "notes": "Kimi 内部版 + 外部模型补充"
     },
     {
-      "company": "深度求索",
-      "company_en": "DeepSeek",
+      "company": "深度求索（test）",
+      "company_en": "DeepSeek（test）",
       "industry": "AI",
       "city": "杭州",
       "province": "浙江",
@@ -200,8 +200,8 @@
       "notes": "内部全线模型无限使用"
     },
     {
-      "company": "美团",
-      "company_en": "Meituan",
+      "company": "美团（test）",
+      "company_en": "Meituan（test）",
       "industry": "互联网/本地生活",
       "city": "北京",
       "province": "北京",

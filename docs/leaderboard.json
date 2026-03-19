@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-19T13:51:03.643119+00:00",
+  "generated_at": "2026-03-19T13:58:19.682125+00:00",
   "total_companies": 15,
   "global_ranking": [
     {
-      "company": "Anthropic",
+      "company": "Anthropic（test）",
       "industry": "AI",
       "city": "San Francisco",
       "state": "California",
@@ -41,7 +41,7 @@
       "regional_rank": 1
     },
     {
-      "company": "OpenAI",
+      "company": "OpenAI（test）",
       "industry": "AI",
       "city": "San Francisco",
       "state": "California",
@@ -73,7 +73,7 @@
       "regional_rank": 2
     },
     {
-      "company": "Google DeepMind",
+      "company": "Google DeepMind（test）",
       "industry": "AI",
       "city": "Mountain View",
       "state": "California",
@@ -105,8 +105,8 @@
       "regional_rank": 3
     },
     {
-      "company": "字节跳动",
-      "company_en": "ByteDance",
+      "company": "字节跳动（test）",
+      "company_en": "ByteDance（test）",
       "industry": "互联网",
       "city": "北京",
       "province": "北京",
@@ -177,8 +177,8 @@
       "regional_rank": 2
     },
     {
-      "company": "深度求索",
-      "company_en": "DeepSeek",
+      "company": "深度求索（test）",
+      "company_en": "DeepSeek（test）",
       "industry": "AI",
       "city": "杭州",
       "province": "浙江",
@@ -210,7 +210,7 @@
       "regional_rank": 3
     },
     {
-      "company": "Meta",
+      "company": "Meta（test）",
       "industry": "Social Media/AI",
       "city": "Menlo Park",
       "state": "California",
@@ -248,7 +248,7 @@
       "regional_rank": 4
     },
     {
-      "company": "Stripe",
+      "company": "Stripe（test）",
       "industry": "FinTech",
       "city": "San Francisco",
       "state": "California",
@@ -280,7 +280,7 @@
       "regional_rank": 5
     },
     {
-      "company": "Shopify",
+      "company": "Shopify（test）",
       "industry": "E-Commerce",
       "city": "Ottawa",
       "state": "Ontario",
@@ -312,8 +312,8 @@
       "regional_rank": 6
     },
     {
-      "company": "阿里巴巴",
-      "company_en": "Alibaba",
+      "company": "阿里巴巴（test）",
+      "company_en": "Alibaba（test）",
       "industry": "互联网/云计算",
       "city": "杭州",
       "province": "浙江",
@@ -345,8 +345,8 @@
       "regional_rank": 4
     },
     {
-      "company": "月之暗面",
-      "company_en": "Moonshot AI",
+      "company": "月之暗面（test）",
+      "company_en": "Moonshot AI（test）",
       "industry": "AI",
       "city": "北京",
       "province": "北京",
@@ -378,7 +378,7 @@
       "regional_rank": 5
     },
     {
-      "company": "Mistral AI",
+      "company": "Mistral AI（test）",
       "industry": "AI",
       "city": "Paris",
       "country": "FR",
@@ -409,8 +409,8 @@
       "regional_rank": 7
     },
     {
-      "company": "百度",
-      "company_en": "Baidu",
+      "company": "百度（test）",
+      "company_en": "Baidu（test）",
       "industry": "互联网/AI",
       "city": "北京",
       "province": "北京",
@@ -436,8 +436,8 @@
       "regional_rank": 6
     },
     {
-      "company": "智谱AI",
-      "company_en": "Zhipu AI",
+      "company": "智谱AI（test）",
+      "company_en": "Zhipu AI（test）",
       "industry": "AI",
       "city": "北京",
       "province": "北京",
@@ -463,8 +463,8 @@
       "regional_rank": 7
     },
     {
-      "company": "美团",
-      "company_en": "Meituan",
+      "company": "美团（test）",
+      "company_en": "Meituan（test）",
       "industry": "互联网/本地生活",
       "city": "北京",
       "province": "北京",
@@ -498,8 +498,8 @@
   ],
   "cn_ranking": [
     {
-      "company": "字节跳动",
-      "company_en": "ByteDance",
+      "company": "字节跳动（test）",
+      "company_en": "ByteDance（test）",
       "industry": "互联网",
       "city": "北京",
       "province": "北京",
@@ -570,8 +570,8 @@
       "regional_rank": 2
     },
     {
-      "company": "深度求索",
-      "company_en": "DeepSeek",
+      "company": "深度求索（test）",
+      "company_en": "DeepSeek（test）",
       "industry": "AI",
       "city": "杭州",
       "province": "浙江",
@@ -603,8 +603,8 @@
       "regional_rank": 3
     },
     {
-      "company": "阿里巴巴",
-      "company_en": "Alibaba",
+      "company": "阿里巴巴（test）",
+      "company_en": "Alibaba（test）",
       "industry": "互联网/云计算",
       "city": "杭州",
       "province": "浙江",
@@ -636,8 +636,8 @@
       "regional_rank": 4
     },
     {
-      "company": "月之暗面",
-      "company_en": "Moonshot AI",
+      "company": "月之暗面（test）",
+      "company_en": "Moonshot AI（test）",
       "industry": "AI",
       "city": "北京",
       "province": "北京",
@@ -669,8 +669,8 @@
       "regional_rank": 5
     },
     {
-      "company": "百度",
-      "company_en": "Baidu",
+      "company": "百度（test）",
+      "company_en": "Baidu（test）",
       "industry": "互联网/AI",
       "city": "北京",
       "province": "北京",
@@ -696,8 +696,8 @@
       "regional_rank": 6
     },
     {
-      "company": "智谱AI",
-      "company_en": "Zhipu AI",
+      "company": "智谱AI（test）",
+      "company_en": "Zhipu AI（test）",
       "industry": "AI",
       "city": "北京",
       "province": "北京",
@@ -723,8 +723,8 @@
       "regional_rank": 7
     },
     {
-      "company": "美团",
-      "company_en": "Meituan",
+      "company": "美团（test）",
+      "company_en": "Meituan（test）",
       "industry": "互联网/本地生活",
       "city": "北京",
       "province": "北京",
@@ -758,7 +758,7 @@
   ],
   "intl_ranking": [
     {
-      "company": "Anthropic",
+      "company": "Anthropic（test）",
       "industry": "AI",
       "city": "San Francisco",
       "state": "California",
@@ -796,7 +796,7 @@
       "regional_rank": 1
     },
     {
-      "company": "OpenAI",
+      "company": "OpenAI（test）",
       "industry": "AI",
       "city": "San Francisco",
       "state": "California",
@@ -828,7 +828,7 @@
       "regional_rank": 2
     },
     {
-      "company": "Google DeepMind",
+      "company": "Google DeepMind（test）",
       "industry": "AI",
       "city": "Mountain View",
       "state": "California",
@@ -860,7 +860,7 @@
       "regional_rank": 3
     },
     {
-      "company": "Meta",
+      "company": "Meta（test）",
       "industry": "Social Media/AI",
       "city": "Menlo Park",
       "state": "California",
@@ -898,7 +898,7 @@
       "regional_rank": 4
     },
     {
-      "company": "Stripe",
+      "company": "Stripe（test）",
       "industry": "FinTech",
       "city": "San Francisco",
       "state": "California",
@@ -930,7 +930,7 @@
       "regional_rank": 5
     },
     {
-      "company": "Shopify",
+      "company": "Shopify（test）",
       "industry": "E-Commerce",
       "city": "Ottawa",
       "state": "Ontario",
@@ -962,7 +962,7 @@
       "regional_rank": 6
     },
     {
-      "company": "Mistral AI",
+      "company": "Mistral AI（test）",
       "industry": "AI",
       "city": "Paris",
       "country": "FR",
