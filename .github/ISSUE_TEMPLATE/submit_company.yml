@@ -1,0 +1,129 @@
+name: "\U0001F3E2 Submit Company AI Token Benefits / 提交公司 AI Token 福利"
+description: "Share your company's AI model token benefits / 分享你公司的 AI 模型 Token 福利"
+title: "[Submit] Company Name - City"
+labels: ["submission", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for contributing! / 感谢你的贡献！
+
+        Your submission helps build transparency around AI benefits in the industry.
+        你的提交有助于提升行业 AI 福利的透明度。
+
+        **All submissions are anonymous by default. / 所有提交默认匿名。**
+
+  - type: input
+    id: company
+    attributes:
+      label: "Company Name / 公司名称"
+      description: "Official company name / 公司官方名称"
+      placeholder: "e.g., ByteDance / 字节跳动"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: country
+    attributes:
+      label: "Country / Region / 国家/地区"
+      options:
+        - "CN (China / 中国)"
+        - "US (United States / 美国)"
+        - "GB (United Kingdom / 英国)"
+        - "CA (Canada / 加拿大)"
+        - "DE (Germany / 德国)"
+        - "FR (France / 法国)"
+        - "JP (Japan / 日本)"
+        - "KR (South Korea / 韩国)"
+        - "SG (Singapore / 新加坡)"
+        - "IN (India / 印度)"
+        - "AU (Australia / 澳大利亚)"
+        - "IL (Israel / 以色列)"
+        - "HK (Hong Kong / 香港)"
+        - "TW (Taiwan / 台湾)"
+        - "Other / 其他"
+    validations:
+      required: true
+
+  - type: input
+    id: city
+    attributes:
+      label: "City / 城市"
+      placeholder: "e.g., Beijing / 北京"
+    validations:
+      required: true
+
+  - type: input
+    id: industry
+    attributes:
+      label: "Industry / 行业"
+      placeholder: "e.g., Internet / AI / FinTech / 互联网 / 人工智能 / 金融科技"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: size
+    attributes:
+      label: "Company Size / 公司规模"
+      options:
+        - "1-50"
+        - "50-100"
+        - "100-500"
+        - "500-1000"
+        - "1000-5000"
+        - "5000-10000"
+        - "10000+"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: benefit_mode
+    attributes:
+      label: "Benefit Mode / 福利模式"
+      description: "How is the AI benefit provided? / AI 福利以什么形式提供？"
+      options:
+        - "all_employees (全员开放 - 公司全员统一开放)"
+        - "tech_only (仅技术人员 - 仅技术/研发人员可用)"
+        - "reimbursement (报销 - 员工自行购买后报销)"
+        - "team_budget (团队预算 - 由团队/部门预算支出)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: models
+    attributes:
+      label: "AI Models Available / 可用 AI 模型"
+      description: |
+        List each model on a new line with format:
+        每行一个模型，格式如下：
+        `Provider | Model | Quota | Access Type`
+
+        **Quota options / 额度选项:** unlimited, very_high (>10M/mo), high (1M-10M/mo), medium (100K-1M/mo), low (<100K/mo)
+        **Access options / 访问类型:** api+chat, api, chat
+      value: |
+        <!-- Example / 示例: -->
+        OpenAI | gpt-4o | high | chat
+        Anthropic | claude-sonnet-4 | medium | chat
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Additional Notes / 补充说明"
+      description: "Any additional context about the AI benefits / 关于 AI 福利的其他补充信息"
+      placeholder: |
+        e.g., Only available to engineering team / 仅工程团队可用
+        e.g., Provided through internal AI platform / 通过内部 AI 平台提供
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: "Verification / 确认"
+      options:
+        - label: "I am or was an employee of this company / 我是或曾是该公司的员工"
+          required: true
+        - label: "This information is accurate to the best of my knowledge / 据我所知，此信息准确无误"
+          required: true
+        - label: "I understand this submission will be public / 我理解此提交将被公开"
+          required: true

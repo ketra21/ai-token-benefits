@@ -1,0 +1,996 @@
+{
+  "generated_at": "2026-03-18T02:05:51.343892+00:00",
+  "total_companies": 15,
+  "global_ranking": [
+    {
+      "company": "Anthropic",
+      "industry": "AI",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "US",
+      "size": "1000-5000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-opus-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-haiku-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full access to all Claude models internally",
+      "score": 198.0,
+      "rank": 1,
+      "tier": "S",
+      "regional_rank": 1
+    },
+    {
+      "company": "OpenAI",
+      "industry": "AI",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "US",
+      "size": "1000-5000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "openai",
+          "model": "gpt-4.5",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full access to all GPT models",
+      "score": 152.75,
+      "rank": 2,
+      "tier": "S",
+      "regional_rank": 2
+    },
+    {
+      "company": "Google DeepMind",
+      "industry": "AI",
+      "city": "Mountain View",
+      "state": "California",
+      "country": "US",
+      "size": "5000-10000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "google",
+          "model": "gemini-2.5-pro",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "google",
+          "model": "gemini-ultra-2",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full access to Gemini models",
+      "score": 152.75,
+      "rank": 3,
+      "tier": "S",
+      "regional_rank": 3
+    },
+    {
+      "company": "字节跳动",
+      "company_en": "ByteDance",
+      "industry": "互联网",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "bytedance",
+          "model": "doubao-pro",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "内部 Copilot 平台集成多模型",
+      "score": 126.72,
+      "rank": 4,
+      "tier": "S",
+      "regional_rank": 1
+    },
+    {
+      "company": "深度求索",
+      "company_en": "DeepSeek",
+      "industry": "AI",
+      "city": "杭州",
+      "province": "浙江",
+      "country": "CN",
+      "size": "100-500",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "deepseek",
+          "model": "deepseek-r1",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "deepseek",
+          "model": "deepseek-v3",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "内部全线模型无限使用",
+      "score": 113.14,
+      "rank": 5,
+      "tier": "A",
+      "regional_rank": 2
+    },
+    {
+      "company": "Meta",
+      "industry": "Social Media/AI",
+      "city": "Menlo Park",
+      "state": "California",
+      "country": "US",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "meta",
+          "model": "llama-3.1-405b",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Internal Llama + external model access",
+      "score": 92.78,
+      "rank": 6,
+      "tier": "A",
+      "regional_rank": 4
+    },
+    {
+      "company": "Stripe",
+      "industry": "FinTech",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "US",
+      "size": "5000-10000",
+      "benefit_mode": "tech_only",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-opus-4",
+          "quota": "high",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Engineering team has broad AI tool access",
+      "score": 79.52,
+      "rank": 7,
+      "tier": "B",
+      "regional_rank": 5
+    },
+    {
+      "company": "阿里巴巴",
+      "company_en": "Alibaba",
+      "industry": "互联网/云计算",
+      "city": "杭州",
+      "province": "浙江",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "alibaba",
+          "model": "qwen-max",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "通义千问内部无限使用",
+      "score": 74.68,
+      "rank": 8,
+      "tier": "B",
+      "regional_rank": 3
+    },
+    {
+      "company": "腾讯",
+      "company_en": "Tencent",
+      "industry": "互联网",
+      "city": "深圳",
+      "province": "广东",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "tencent",
+          "model": "hunyuan-pro",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "混元大模型内部使用",
+      "score": 74.68,
+      "rank": 9,
+      "tier": "B",
+      "regional_rank": 4
+    },
+    {
+      "company": "月之暗面",
+      "company_en": "Moonshot AI",
+      "industry": "AI",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "500-1000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "moonshot",
+          "model": "moonshot-v1-128k",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Kimi 内部版 + 外部模型补充",
+      "score": 74.68,
+      "rank": 10,
+      "tier": "B",
+      "regional_rank": 5
+    },
+    {
+      "company": "Shopify",
+      "industry": "E-Commerce",
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "CA",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "high",
+          "type": "chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Company-wide AI assistant access",
+      "score": 66.38,
+      "rank": 11,
+      "tier": "B",
+      "regional_rank": 6
+    },
+    {
+      "company": "百度",
+      "company_en": "Baidu",
+      "industry": "互联网/AI",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "baidu",
+          "model": "ernie-4.0",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "文心一言内部版本",
+      "score": 45.26,
+      "rank": 12,
+      "tier": "C",
+      "regional_rank": 6
+    },
+    {
+      "company": "智谱AI",
+      "company_en": "Zhipu AI",
+      "industry": "AI",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "1000-5000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "zhipu",
+          "model": "glm-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "GLM 系列内部无限使用",
+      "score": 45.26,
+      "rank": 13,
+      "tier": "C",
+      "regional_rank": 7
+    },
+    {
+      "company": "Mistral AI",
+      "industry": "AI",
+      "city": "Paris",
+      "country": "FR",
+      "size": "100-500",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "mistral",
+          "model": "mixtral-8x22b",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full Mistral model access + external models",
+      "score": 43.56,
+      "rank": 14,
+      "tier": "C",
+      "regional_rank": 7
+    },
+    {
+      "company": "美团",
+      "company_en": "Meituan",
+      "industry": "互联网/本地生活",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "tech_only",
+      "models": [
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "low",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "",
+      "score": 34.57,
+      "rank": 15,
+      "tier": "C",
+      "regional_rank": 8
+    }
+  ],
+  "cn_ranking": [
+    {
+      "company": "字节跳动",
+      "company_en": "ByteDance",
+      "industry": "互联网",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "bytedance",
+          "model": "doubao-pro",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "内部 Copilot 平台集成多模型",
+      "score": 126.72,
+      "rank": 4,
+      "tier": "S",
+      "regional_rank": 1
+    },
+    {
+      "company": "深度求索",
+      "company_en": "DeepSeek",
+      "industry": "AI",
+      "city": "杭州",
+      "province": "浙江",
+      "country": "CN",
+      "size": "100-500",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "deepseek",
+          "model": "deepseek-r1",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "deepseek",
+          "model": "deepseek-v3",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "内部全线模型无限使用",
+      "score": 113.14,
+      "rank": 5,
+      "tier": "A",
+      "regional_rank": 2
+    },
+    {
+      "company": "阿里巴巴",
+      "company_en": "Alibaba",
+      "industry": "互联网/云计算",
+      "city": "杭州",
+      "province": "浙江",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "alibaba",
+          "model": "qwen-max",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "通义千问内部无限使用",
+      "score": 74.68,
+      "rank": 8,
+      "tier": "B",
+      "regional_rank": 3
+    },
+    {
+      "company": "腾讯",
+      "company_en": "Tencent",
+      "industry": "互联网",
+      "city": "深圳",
+      "province": "广东",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "tencent",
+          "model": "hunyuan-pro",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "混元大模型内部使用",
+      "score": 74.68,
+      "rank": 9,
+      "tier": "B",
+      "regional_rank": 4
+    },
+    {
+      "company": "月之暗面",
+      "company_en": "Moonshot AI",
+      "industry": "AI",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "500-1000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "moonshot",
+          "model": "moonshot-v1-128k",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Kimi 内部版 + 外部模型补充",
+      "score": 74.68,
+      "rank": 10,
+      "tier": "B",
+      "regional_rank": 5
+    },
+    {
+      "company": "百度",
+      "company_en": "Baidu",
+      "industry": "互联网/AI",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "baidu",
+          "model": "ernie-4.0",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "文心一言内部版本",
+      "score": 45.26,
+      "rank": 12,
+      "tier": "C",
+      "regional_rank": 6
+    },
+    {
+      "company": "智谱AI",
+      "company_en": "Zhipu AI",
+      "industry": "AI",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "1000-5000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "zhipu",
+          "model": "glm-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "GLM 系列内部无限使用",
+      "score": 45.26,
+      "rank": 13,
+      "tier": "C",
+      "regional_rank": 7
+    },
+    {
+      "company": "美团",
+      "company_en": "Meituan",
+      "industry": "互联网/本地生活",
+      "city": "北京",
+      "province": "北京",
+      "country": "CN",
+      "size": "10000+",
+      "benefit_mode": "tech_only",
+      "models": [
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "low",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "",
+      "score": 34.57,
+      "rank": 15,
+      "tier": "C",
+      "regional_rank": 8
+    }
+  ],
+  "intl_ranking": [
+    {
+      "company": "Anthropic",
+      "industry": "AI",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "US",
+      "size": "1000-5000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-opus-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-haiku-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full access to all Claude models internally",
+      "score": 198.0,
+      "rank": 1,
+      "tier": "S",
+      "regional_rank": 1
+    },
+    {
+      "company": "OpenAI",
+      "industry": "AI",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "US",
+      "size": "1000-5000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "openai",
+          "model": "gpt-4.5",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full access to all GPT models",
+      "score": 152.75,
+      "rank": 2,
+      "tier": "S",
+      "regional_rank": 2
+    },
+    {
+      "company": "Google DeepMind",
+      "industry": "AI",
+      "city": "Mountain View",
+      "state": "California",
+      "country": "US",
+      "size": "5000-10000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "google",
+          "model": "gemini-2.5-pro",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "google",
+          "model": "gemini-ultra-2",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full access to Gemini models",
+      "score": 152.75,
+      "rank": 3,
+      "tier": "S",
+      "regional_rank": 3
+    },
+    {
+      "company": "Meta",
+      "industry": "Social Media/AI",
+      "city": "Menlo Park",
+      "state": "California",
+      "country": "US",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "meta",
+          "model": "llama-3.1-405b",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Internal Llama + external model access",
+      "score": 92.78,
+      "rank": 6,
+      "tier": "A",
+      "regional_rank": 4
+    },
+    {
+      "company": "Stripe",
+      "industry": "FinTech",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "US",
+      "size": "5000-10000",
+      "benefit_mode": "tech_only",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-opus-4",
+          "quota": "high",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Engineering team has broad AI tool access",
+      "score": 79.52,
+      "rank": 7,
+      "tier": "B",
+      "regional_rank": 5
+    },
+    {
+      "company": "Shopify",
+      "industry": "E-Commerce",
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "CA",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "high",
+          "type": "chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Company-wide AI assistant access",
+      "score": 66.38,
+      "rank": 11,
+      "tier": "B",
+      "regional_rank": 6
+    },
+    {
+      "company": "Mistral AI",
+      "industry": "AI",
+      "city": "Paris",
+      "country": "FR",
+      "size": "100-500",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "mistral",
+          "model": "mixtral-8x22b",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full Mistral model access + external models",
+      "score": 43.56,
+      "rank": 14,
+      "tier": "C",
+      "regional_rank": 7
+    }
+  ]
+}

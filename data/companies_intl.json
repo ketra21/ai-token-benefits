@@ -1,0 +1,213 @@
+{
+  "region": "INTL",
+  "description": "International companies AI token benefits data",
+  "companies": [
+    {
+      "company": "Anthropic",
+      "industry": "AI",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "US",
+      "size": "1000-5000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-opus-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-haiku-4",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full access to all Claude models internally"
+    },
+    {
+      "company": "OpenAI",
+      "industry": "AI",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "US",
+      "size": "1000-5000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "openai",
+          "model": "gpt-4.5",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full access to all GPT models"
+    },
+    {
+      "company": "Google DeepMind",
+      "industry": "AI",
+      "city": "Mountain View",
+      "state": "California",
+      "country": "US",
+      "size": "5000-10000",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "google",
+          "model": "gemini-2.5-pro",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "google",
+          "model": "gemini-ultra-2",
+          "quota": "unlimited",
+          "type": "api+chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full access to Gemini models"
+    },
+    {
+      "company": "Meta",
+      "industry": "Social Media/AI",
+      "city": "Menlo Park",
+      "state": "California",
+      "country": "US",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "meta",
+          "model": "llama-3.1-405b",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Internal Llama + external model access"
+    },
+    {
+      "company": "Stripe",
+      "industry": "FinTech",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "US",
+      "size": "5000-10000",
+      "benefit_mode": "tech_only",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-opus-4",
+          "quota": "high",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Engineering team has broad AI tool access"
+    },
+    {
+      "company": "Shopify",
+      "industry": "E-Commerce",
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "CA",
+      "size": "10000+",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4",
+          "quota": "high",
+          "type": "chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "high",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Company-wide AI assistant access"
+    },
+    {
+      "company": "Mistral AI",
+      "industry": "AI",
+      "city": "Paris",
+      "country": "FR",
+      "size": "100-500",
+      "benefit_mode": "all_employees",
+      "models": [
+        {
+          "provider": "mistral",
+          "model": "mixtral-8x22b",
+          "quota": "unlimited",
+          "type": "api+chat"
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "quota": "medium",
+          "type": "chat"
+        }
+      ],
+      "verified": false,
+      "submitted_by": "anonymous",
+      "submitted_at": "2026-03-01",
+      "source": "employee_report",
+      "notes": "Full Mistral model access + external models"
+    }
+  ]
+}
